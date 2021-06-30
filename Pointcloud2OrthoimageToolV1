@@ -395,6 +395,6 @@ if __name__ == '__main__':
         PC_Name=['5mm_18_34_56']
         #PC_Name.reverse()
         for i in PC_Name:
-            main(pointName=i,glb_file_path=glb_file_path,GSDmm2px=5,bool_alignOnly=1,b=b,bool_generate=0)
+            main(pointName=i,glb_file_path=glb_file_path,GSDmm2px=5,bool_alignOnly=0,b=b,bool_generate=0)
     else:
         main(pointName='5mm_18_34_56',glb_file_path=glb_file_path,GSDmm2px=5,bool_alignOnly=False,b=b)# centOS cannot run open3D
